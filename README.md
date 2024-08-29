@@ -1,6 +1,6 @@
 # MarsVolcanDetection
 
-Le jeu de données mars est composé d’images de mars (cf. figures 1 et 2). Le but est de détecter sur les images la présence de volcans. 
+Le jeu de données mars est composé d’images de mars. Le but est de détecter sur les images la présence de volcans. 
 Pour cela, des descripteurs ont été calculés en utilisant premièrement un filtre médian puis la méthode de HOG. Les images les plus bruitées ont été supprimées, mais certaines conservent un peu de bruit.
 
 On a deux fichiers avec les données telles que les attributs sont en colonnes et les individus en ligne. Ces deux fichiers n’ont pas les mêmes individus. Le fichier mars train.csv doit être utilisé pour l’entraînement
